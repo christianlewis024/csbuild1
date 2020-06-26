@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+}
+
+.box {
+  display: inline-block;
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+}
+
+.off {
+  background-color: rgba(211, 211, 211, 0);
+}
+
+.on {
+  background-color: rgb(123, 129, 219);
+}
+
+.box:hover {
+  background: #00ccff;
+}
+
+.center {
+  margin: auto;
+  display: table;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  margin: auto;
+
+  margin-top: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 0px;
+}
+button {
+  background-color: blue;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  color: white;
+  font-weight: 900;
+  border-radius: 10px;
+}
